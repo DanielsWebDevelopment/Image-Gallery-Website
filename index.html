@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5831b8626a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-info alert">Imagine</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-title">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <form action="">
+                <input type="text" id="search" placeholder="Search...">
+                <button onclick="btn()" id="srch">Enter</button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <Section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="btn"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/main1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>A Radiance of Skyscrapers.</h5>
+                <p><a href="#about-me" class="btn btn-info alert mt3">View Work</a></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/main2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>The City of Wonders.</h5>
+                <p><a href="#about-me" class="btn btn-info alert mt3">View Work</a></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/main3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Arcadia Metropolis.</h5>
+                <p><a href="#about-me" class="btn btn-info alert mt3">View Work</a></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div id="main-title">
+        <h1>Gallery</h1>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="img/123.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A View Above the clouds</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, alias!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/12345.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A Tropical New Wave</h5>
+                  <p class="card-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, eaque. ti lun vue we</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/1234567.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A Modern Path</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, quaerat!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/12345678.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A Days End Sunset</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, officiis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+        <div class="text-center">
+            <button type="button" class="btn btn-info alert">View More</button>
+        </div>
+        <div id="about-me">
+          <div class="about">
+            <h1>Future Art</h1>
+        </div>
+      </div>
+      <div class="card-group br-15">
+        <div class="card">
+          <img src="img/ph1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">A Panoramic Vista of Mountain Splendor</h5>
+            <p class="card-text">Immerse yourself in the breathtaking vista of "Peaks of Serenity." This captivating mountain view image showcases the raw beauty of nature's masterpiece. Towering peaks, dressed in a pristine white cloak, </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/ph2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">A Majestic Tapestry of Peaks</h5>
+            <p class="card-text">Nestled amidst the awe-inspiring landscape, alpine meadows burst with vibrant wildflowers, painting the foreground with a tapestry of hues. A crystal-clear mountain stream winds its way through the rocky terrain, its gentle cascades creating a soothing melody </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/ph3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">A Majestic Mountain Symphony</h5>
+            <p class="card-text">At the heart of this natural wonder, a cluster of alpine cabins offers a glimpse of human presence, providing warmth and shelter amidst the wilderness. Smoke wisps curl from the chimneys.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card-group br-15">
+          <div class="card">
+            <img src="img/12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">A Tapestry of Tranquility and Majesty</h5>
+              <p class="card-text">Embark on an enchanting visual journey with "Summit Symphony," a mountain view image that captures the essence of nature's grandeur. As you gaze upon the scene, a breathtaking panorama of majestic peaks unfolds.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/13.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">A Vision of Nature's Radiance</h5>
+              <p class="card-text"> lush alpine meadows blanket the rolling foothills, showcasing a vibrant display of wildflowers in full bloom. Their brilliant colors paint a vivid contrast against the muted.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">A Symphony of Nature's Beauty</h5>
+              <p class="card-text">Prepare to be captivated by the awe-inspiring beauty of "Elevated Majesty." This mountain view image presents a breathtaking panorama that transports you to a realm of unparalleled splendor. As your eyes wander across the scene, a symphony of peaks unfolds.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div id="about">
+              <h1>About Us</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dignissimos</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dignissimos</p>
+              <img src="img/pexels-drew-williams-3483967.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">Copyright &copy; 2023, Imagine</p>
+          <div class="footer">
+            <ul>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
