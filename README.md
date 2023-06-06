@@ -9,7 +9,7 @@ implementing bootstrap and allowing for users to search for an image.
 # Future Updates: 
 implentment a section so users can upload there own photography photos
 
-# Screenshots of the project below! 
+# Below are the Screenshots of the Website Structure
 ![main7](https://github.com/DanielsWebDevelopment/Image-Gallery-Website/assets/129445203/9441e82c-bb61-42c6-9d81-8b3e407ad6dd)
 
 ![main6 (3)](https://github.com/DanielsWebDevelopment/Image-Gallery-Website/assets/129445203/80869cf6-b5bb-4724-9e9b-e8c5ad6dd6d4)
