@@ -5,7 +5,8 @@ The goal for this project was to able to allow users to check out beautiful and 
 also allowing users to be able to upload images and search for photos. 
 
 # Some of the Features include, but not limited too, 
-allowing users to search for an image, while also being able to upload there photography 
+allowing users to search for an image, while also 
+being able to upload there photography 
 share it on the gallery
 
 # Future Updates: 
