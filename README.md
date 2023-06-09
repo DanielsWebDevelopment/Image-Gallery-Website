@@ -1,7 +1,8 @@
 # Image-Gallery-Website
 This website was developed for photography purposes as a (personal Project)
 
-The goal for this project was to able to allow users to check out beautiful and unqiue photos
+The goal for this project was to able to allow users to check out beautiful and unqiue photography while
+also allowing users to be able to upload images, search for photos. 
 
 # Some of the Features include, but not limited too, 
 implementing bootstrap and allowing for users to search for an image. 
