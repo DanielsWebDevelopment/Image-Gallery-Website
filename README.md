@@ -5,12 +5,12 @@ The goal for this project was to able to allow users to check out beautiful and 
 also allowing users to be able to upload images and search for photos. 
 
 # Some of the Features include, but not limited too, 
-allowing users to search for an image, while also 
-being able to upload there photography 
+* allowing users to search for an image, while also 
+* being able to upload there photography 
 or share it on our gallery
 
 # Future Updates: 
-implentment a section so users can upload there own photography photos
+* implentment a section so users can upload there own photography photos
 allowing them to save it on there profile. 
 
 # Below are the Screenshots of the Website Structure.
