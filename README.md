@@ -4,6 +4,8 @@ This website was developed for photography purposes as a (personal Project)
 The goal for this project was to able to allow users to check out beautiful and unqiue photography while
 also allowing users to be able to upload images and search for photos. 
 
+#### This Webpage was built using HTML, CSS & Bootstrap
+
 # Some of the Features include, but not limited too, 
 * allowing users to search for an image, while also 
 * being able to upload there photography 
