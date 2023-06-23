@@ -6,16 +6,16 @@ also allowing users to be able to upload images and search for photos.
 
 #### This Webpage was built using HTML, CSS & Bootstrap
 
-# Some of the Features include, but not limited too, 
+## Some of the Features include, but not limited too, 
 * allowing users to search for an image, while also 
 * being able to upload there photography 
 or share it on our gallery
 
-# Future Updates: 
+## Future Updates: 
 * implentment a section so users can upload there own photography photos
 allowing them to save it on there profile. 
 
-# Below are the Screenshots of the Website Structure.
+### Below are the Screenshots of the Website Structure.
 ![main7](https://github.com/DanielsWebDevelopment/Image-Gallery-Website/assets/129445203/9441e82c-bb61-42c6-9d81-8b3e407ad6dd)
 
 ![main6 (3)](https://github.com/DanielsWebDevelopment/Image-Gallery-Website/assets/129445203/80869cf6-b5bb-4724-9e9b-e8c5ad6dd6d4)
