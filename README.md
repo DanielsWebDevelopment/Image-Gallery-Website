@@ -1,4 +1,4 @@
-# Image-Gallery-Website
+![Imagine_Photography](https://github.com/DanielsWebDevelopment/Gaming-Platform-Website/assets/129445203/391af4b3-f898-4ab3-b500-461d03d0ad53)
 This website was developed for photography purposes as a (personal Project)
 
 The goal for this project was to able to allow users to check out beautiful and unqiue photography while
